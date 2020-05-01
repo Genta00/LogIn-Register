@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+    
+}
+.header{
+    display: flex;
+    position: relative;
+}
+#ubtlogo{
+    max-width: 100px;
+    max-height: 100px;
+    display: inline;
+    margin-left: 44px
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+    color: white;
+}
+.hlist{
+    display: inline;
+    margin-left: 1100px;
+}
+#item{
+    border:0;
+    border-radius: 20px;
+    background-color:#329da8;
+    height: 30px;
+    width: 30px;
+}
+#grad1{
+    background-image: linear-gradient(to bottom right,aquamarine,green);
+} 
+  li:hover{
+      font-size: 35px;
+      background-color: #329da8;
+  }
+
+  #main{
+      width: 35%;
+      margin: 50px auto;
+      text-align: center;
+      color: white;
+  }
+  #tab-btn{
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      width: 111%;
+      justify-content: center;
+  }
+  .login, .register{
+      text-decoration: none;
+      display: block;
+      width: 100%;
+      background-color:#329da8;
+      text-align: center;
+      color: #fff;
+      font-size: 25px;
+      padding: 10px;
+      border: 1px solid lightgray;
+  }.active{
+      background-color: #329da8;
+      color: #000;
+  }
+  .content,.other{
+      width: 100%;
+      background-color: #329da8;
+      padding: 20px 30px 30px 30px;
+      box-shadow: 2px 2px 5px #333;
+  }.other{
+      display: none;
+  }
+  .input{
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      font-size: 20px;
+      border-radius: 20px;
+      background-color:lightgray;
+      
+  }
+  .inp:focus{
+      outline: none;
+      border: 2px solid #555;
+      border-bottom: 5px solid #555;
+  }
+  #submit{
+    width: 140px;
+    height: 60px;
+    background-color: #4caf50;
+    padding: 0;
+    border: 0;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 27px;
+  }
+  #submit:focus{
+      outline: none;
+  }
+  #submit:active{
+      border: none;
+      margin-top: 5px;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    margin-top: 250px;
+  }

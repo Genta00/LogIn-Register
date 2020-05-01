@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Detyra5</title>
+        <link rel="stylesheet" href="style.css">
+        <script  src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".register").click(function(){
+                    $(".other").show();
+                    $(".content").hide();
+                    $(".register").addClass('active');
+                    $(".login").removeClass('active');
+                });
+                $(".login").click(function(){
+                    $(".content").show();
+                    $(".other").hide();
+                    $(".login").addClass('active');
+                    $(".register").removeClass('active');
+                });
+            });
+            alert('Mire se vini!')
+        </script>
+    </head>
+    
+    <body>
+        <div id="grad1">
+
+        <header>
+            <img id="ubtlogo" class="hphoto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Ubtlogo.png/220px-Ubtlogo.png" alt="UBT logo">
+            <ul class="hlist">
+                <li id="item">Home</li>
+                <li id="item">About us</li>
+                <li id="item">Contact us</li>
+            </ul>
+        </header>
+        
+        <div id="main">
+            <div id="tab-btn">
+                <a href="#" class="login active">Sign In</a>
+                <a href="#" class="register">Register</a>
+            </div>
+                <div class="content">
+                    <form action="#" method="post" id="login-box">
+                        <label for>Username:</label>
+                        <input type="text" class="input" placeholder="username..." required autofocus><br><br>
+                        <label for>Password:</label>
+                        <input type="password" class="input" placeholder="password..." required><br><br>
+                        <input id="submit" type="submit" class="input submit" value="Login">
+                        
+                    </form>
+                </div>
+                <div class="other">
+                    <form action="#" method="post" id="reg-box">
+                        <label for>Username:</label>
+                        <input type="text" class="input" placeholder="username..."><br><br>
+                        <label for>Password:</label>
+                        <input type="password" class="input" placeholder="password..."><br><br>
+                        <label for>Email:</label>
+                        <input type="email" class="input" placeholder="email..."><br><br>
+                        <input id="submit" type="submit" class="input submit" value="Login">
+                     </form>
+                </div>
+            </div>
+
+        <footer>
+            <h3> ©UBT - Prill 2020</h3>
+        </footer>
+    </div> 
+    
+    </body>
+</html>
